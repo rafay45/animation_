@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise No 8</title>
+    <style>
+        body{
+        background-color:black;
+        }
+    .container{
+        margin: 50px auto;
+        background-color: black;
+        height: 83vh;
+        width: 90vw;
+        position: relative;
+    }
+     .box{
+        height: 30px;
+        width: 30px;
+        background-color:red;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 1s ease-out infinite alternate , animateX 3s linear infinite alternate;
+     }
+     .box1{
+        height: 30px;
+        width: 30px;
+        background-color:rgb(255, 208, 0);
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 1.3s ease-out infinite alternate , animateX 3.3s linear infinite alternate;
+     }
+     .box2{
+        height: 30px;
+        width: 30px;
+        background-color:rgb(0, 255, 179);
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 1.4s ease-out infinite alternate , animateX 3.4s linear infinite alternate;
+     }
+     .box3{
+        height: 30px;
+        width: 30px;
+        background-color:rgb(0, 174, 255);
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 1.5s ease-out infinite alternate , animateX 3.5s linear infinite alternate;
+     }
+     .box4{
+        height: 30px;
+        width: 30px;
+        background-color:rgb(18, 112, 6);
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 1.6s ease-out infinite alternate , animateX 3.6s linear infinite alternate;
+     }
+     .bo5{
+        height: 30px;
+        width: 30px;
+        background-color:rgb(102, 39, 39);
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 1.7s ease-out infinite alternate , animateX 3.7s linear infinite alternate;
+     }
+     .box6{
+        height: 30px;
+        width: 30px;
+        background-color:rgb(107, 31, 107);
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 1.8s ease-out infinite alternate , animateX 3.8s linear infinite alternate;
+     }
+     .box7{
+        height: 30px;
+        width: 30px;
+        background-color:rgb(255, 0, 255);
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 1.9s ease-out infinite alternate , animateX 3.9s linear infinite alternate;
+     }
+     .box8{
+        height: 30px;
+        width: 30px;
+        background-color:rgb(255, 115, 0);
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 2s ease-out infinite alternate , animateX 4s linear infinite alternate;
+     }
+     .box9{
+        height: 30px;
+        width: 30px;
+        background-color:rgb(123, 235, 250);
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 2.1s ease-out infinite alternate , animateX 4.2s linear infinite alternate;
+     }
+     .box10{
+        height: 30px;
+        width: 30px;
+        background-color:rgb(170, 27, 27);
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 2.3s ease-out infinite alternate , animateX 4.3s linear infinite alternate;
+     }
+     .box11{
+        height: 30px;
+        width: 30px;
+        background-color:rgb(160, 35, 93);
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 2.4s ease-out infinite alternate , animateX 4.4s linear infinite alternate;
+     }
+     .box12{
+        height: 30px;
+        width: 30px;
+        background-color:rgb(99, 209, 123);
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 2.5s ease-out infinite alternate , animateX 4.5s linear infinite alternate;
+     }
+     .box13{
+        height:30px;
+        width: 30px;
+        background-color:rgb(165, 147, 67);
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 2.6s ease-out infinite alternate , animateX 4.6s linear infinite alternate;
+     }
+     .box14{
+        height: 30px;
+        width: 30px;
+        background-color:rgb(255, 255, 255);
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 2.7s ease-out infinite alternate , animateX 4.7s linear infinite alternate;
+     }
+     .box15{
+        height: 30px;
+        width: 30px;
+        background-color:rgb(0, 255, 34);
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 2.8s ease-out infinite alternate , animateX 4.8s linear infinite alternate;
+     }
+     .box16{
+        height: 30px;
+        width: 30px;
+        background-color:rgb(255, 0, 242);
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 2.9s ease-out infinite alternate , animateX 4.9s linear infinite alternate;
+     }
+     .box17{
+        height: 30px;
+        width: 30px;
+        background-color:rgb(0, 81, 255);
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 3s ease-out infinite alternate , animateX 5s linear infinite alternate;
+     }
+     .box18{
+        height: 30px;
+        width: 30px;
+        background-color:rgb(0, 225, 255);
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 3.1s ease-out infinite alternate , animateX 5.1s linear infinite alternate;
+     }
+     .box19{
+        height: 30px;
+        width: 30px;
+        background-color:rgb(136, 255, 0);
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 3.2s ease-out infinite alternate , animateX 5.2s linear infinite alternate;
+     }
+     .box20{
+        height: 30px;
+        width: 30px;
+        background-color:#8A2BE2;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 5;
+        left: 5;
+        animation: animateY 3.4s ease-out infinite alternate , animateX 5.5s linear infinite alternate;
+     }
+     .box21{
+        height: 30px;
+        width: 30px;
+        background-color:#A52A2A;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 1;
+        left: 1%;
+        animation: animateY 3.6s ease-out infinite alternate , animateX 5.8s linear infinite alternate;
+     }
+     .box22{
+        height: 30px;
+        width: 30px;
+        background-color:#DEB887;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 2%;
+        animation: animateY 3.8s ease-out infinite alternate , animateX 6s linear infinite alternate;
+     }
+     .box23{
+        height: 30px;
+        width: 30px;
+        background-color: #5F9EA0;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 4s ease-out infinite alternate , animateX 6.3s linear infinite alternate;
+     }
+     .box24{
+        height: 30px;
+        width: 30px;
+        background-color:#7FFF00;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 3.4s ease-out infinite alternate , animateX 6.5s linear infinite alternate;
+     }
+     .box25{
+        height: 30px;
+        width: 30px;
+        background-color: #0000FF;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 3.5s ease-out infinite alternate , animateX 6.8s linear infinite alternate;
+     }
+     .box26{
+        height: 30px;
+        width: 30px;
+        background-color:#FFE4C4;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 3.9s ease-out infinite alternate , animateX 7s linear infinite alternate;
+     }
+     .box27{
+        height: 30px;
+        width: 30px;
+        background-color:#F5F5DC;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 5s ease-out infinite alternate , animateX 7.2s linear infinite alternate;
+     }
+     .box28{
+        height: 30px;
+        width: 30px;
+        background-color: #F0FFFF;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 4s ease-out infinite alternate , animateX 7.5s linear infinite alternate;
+     }
+     .box29{
+        height: 30px;
+        width: 30px;
+        background-color:#7FFFD4;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 4.5s ease-out infinite alternate , animateX 8s linear infinite alternate;
+     }
+     .box30{
+        height: 30px;
+        width: 30px;
+        background-color: #FAEBD7;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 4.8s ease-out infinite alternate , animateX 8.2s linear infinite alternate;
+     }
+     .box31{
+        height: 30px;
+        width: 30px;
+        background-color: #D2691E;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 5.2s ease-out infinite alternate , animateX 8.5s linear infinite alternate;
+     }
+     .box32{
+        height: 30px;
+        width: 30px;
+        background-color: #FF7F50;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 5.6s ease-out infinite alternate , animateX 8.7s linear infinite alternate;
+     }
+     .box33{
+        height: 30px;
+        width: 30px;
+        background-color: #6495ED;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 5.8s ease-out infinite alternate , animateX 8.9s linear infinite alternate;
+     }
+     .box34{
+        height: 30px;
+        width: 30px;
+        background-color: #DC143C;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 6s ease-out infinite alternate , animateX 9.3s linear infinite alternate;
+     }
+     .box35{
+        height: 30px;
+        width: 30px;
+        background-color: #FF7F50;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 6.2s ease-out infinite alternate , animateX 9.5s linear infinite alternate;
+     }
+     .box36{
+        height: 30px;
+        width: 30px;
+        background-color: #008B8B;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 6.5s ease-out infinite alternate , animateX 9.8s linear infinite alternate;
+     }
+     .box37{
+        height: 30px;
+        width: 30px;
+        background-color: #B8860B;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 6.8s ease-out infinite alternate , animateX 10s linear infinite alternate;
+     }
+     .box38{
+        height: 30px;
+        width: 30px;
+        background-color: #A9A9A9;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 7s ease-out infinite alternate , animateX 10.2s linear infinite alternate;
+     }
+     .box39{
+        height: 30px;
+        width: 30px;
+        background-color: #006400;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 7.3s ease-out infinite alternate , animateX 10.6s linear infinite alternate;
+     }
+     .box40{
+        height: 30px;
+        width: 30px;
+        background-color: #BDB76B;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 7.5s ease-out infinite alternate , animateX 10.9s linear infinite alternate;
+     }
+     .box41{
+        height: 30px;
+        width: 30px;
+        background-color: #8B008B;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 7.8s ease-out infinite alternate , animateX 11s linear infinite alternate;
+     }
+     .box42{
+        height: 30px;
+        width: 30px;
+        background-color: #556B2F;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 8s ease-out infinite alternate , animateX 11.2s linear infinite alternate;
+     }
+     .box43{
+        height: 30px;
+        width: 30px;
+        background-color: #FF8C00;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 8.5s ease-out infinite alternate , animateX 11.4s linear infinite alternate;
+     }
+     .box44{
+        height: 30px;
+        width: 30px;
+        background-color: #8B0000;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 9s ease-out infinite alternate , animateX 11.7s linear infinite alternate;
+     }
+     .box45{
+        height: 30px;
+        width: 30px;
+        background-color:#8FBC8B;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 9.4s ease-out infinite alternate , animateX 11.9s linear infinite alternate;
+     }
+     .box46{
+        height: 30px;
+        width: 30px;
+        background-color: #483D8B;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 10s ease-out infinite alternate , animateX 12s linear infinite alternate;
+     }
+     .box47{
+        height: 30px;
+        width: 30px;
+        background-color: #FFD700;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 10.3s ease-out infinite alternate , animateX 12.4s linear infinite alternate;
+     }
+     .box48{
+        height: 30px;
+        width: 30px;
+        background-color: #FF6347;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 10.6s ease-out infinite alternate , animateX 12.6s linear infinite alternate;
+     }
+     .box49{
+        height: 30px;
+        width: 30px;
+        background-color: #FFFF00;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 10.9s ease-out infinite alternate , animateX 12.8s linear infinite alternate;
+     }
+     .box50{
+        height: 30px;
+        width: 30px;
+        background-color: #00FF7F;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        animation: animateY 11.5s ease-out infinite alternate , animateX 13s linear infinite alternate;
+     }
+    @keyframes animateX {
+        from{
+          left: 0;
+        }
+        to{
+            left: 100%;
+        }
+    }
+    @keyframes animateY {
+        from{
+           bottom: 0;
+        }
+        to{
+            bottom: 100%;
+        }
+    }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box"></div>
+        <div class="box1"></div>
+        <div class="bo2"></div>
+        <div class="box3"></div>
+        <div class="bo4"></div>
+        <div class="box5"></div>
+        <div class="bo6"></div>
+        <div class="box7"></div>
+        <div class="bo8"></div>
+        <div class="box9"></div>
+        <div class="box10"></div>
+        <div class="box11"></div>
+        <div class="box12"></div>
+        <div class="box13"></div>
+        <div class="box14"></div>
+        <div class="box15"></div>
+        <div class="box16"></div>
+        <div class="box17"></div>
+        <div class="box18"></div>
+        <div class="box19"></div>
+        <div class="box20"></div>
+        <div class="box21"></div>
+        <div class="box22"></div>
+        <div class="box23"></div>
+        <div class="box24"></div>
+        <div class="box25"></div>
+        <div class="box26"></div>
+        <div class="box27"></div>
+        <div class="box28"></div>
+        <div class="box29"></div>
+        <div class="box30"></div>
+        <div class="box31"></div>
+        <div class="box32"></div>
+        <div class="box33"></div>
+        <div class="box34"></div>
+        <div class="box35"></div>
+        <div class="box36"></div>
+        <div class="box37"></div>
+        <div class="box38"></div>
+        <div class="box39"></div>
+        <div class="box40"></div>
+        <div class="box41"></div>
+        <div class="box42"></div>
+        <div class="box43"></div>
+        <div class="box44"></div>
+        <div class="box45"></div>
+        <div class="box46"></div>
+        <div class="box47"></div>
+        <div class="box48"></div>
+        <div class="box49"></div>
+        <div class="box50"></div>
+    </div>
+</body>
+</html>
